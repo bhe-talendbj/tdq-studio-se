@@ -770,7 +770,10 @@ public class TOPRepositoryService implements ITDQRepositoryService {
 
     @Override
     public boolean popupSwitchContextFailedMessage(String chooseContext) {
-    	return SwitchContextAction.popupSwitchContextFailedMessage(chooseContext);
+    	boolean confirm = MessageDialog.openConfirm(CorePlugin.getDefault().getWorkbench().getDisplay().getActiveShell(), "", //$NON-NLS-1$
+                DefaultMessagesImpl.getString("SwitchContextAction.nullParameterError")); //$NON-NLS-1$;
+        //SwitchContextAction.popupSwitchContextFailedMessage(chooseContext);
+        return confirm;
     }
 
 }
