@@ -1818,15 +1818,12 @@
            version="7.4.1">
      </workspacetask>
      <workspacetask
-<<<<<<< Upstream, based on branch 'ql/feat/TDQ-18439/ValidPhoneForRegInd' of git@github.com:Talend/tdq-studio-se.git
            class="org.talend.dataprofiler.core.migration.impl.CreateContextLinkFileTask"
            id="org.talend.dataprofiler.core.migration.impl.CreateContextLinkFileTask"
            name=" create context link files migration"
            version="7.4.1">
      </workspacetask>
      <workspacetask
-=======
->>>>>>> c3b9aca feat(TDQ-18439):Rename the migration task
            class="org.talend.dataprofiler.core.migration.impl.AddValidPhoneForRegionCountIndicatorTask"
            id="org.talend.dataprofiler.core.migration.impl.AddValidPhoneForRegionCountIndicator"
            name="org.talend.dataprofiler.core.migration.impl.AddValidPhoneForRegionCountIndicator"
